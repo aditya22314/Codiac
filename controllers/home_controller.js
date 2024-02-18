@@ -1,5 +1,5 @@
-
 module.exports.home = function(req,res){
-
-    res.end('Express has been set up ')
-} 
+    res.render('home',{
+        title:"Home"
+    })
+}  
